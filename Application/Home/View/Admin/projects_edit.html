@@ -1,0 +1,41 @@
+<extend name="public:menu"/>
+<block name="main">
+    <div class="container-fluid">
+        <h3 class="page-title">项目修改</h3>
+        <form action="/home/admin/projects_update" method="post">
+            <div class="formbox">
+                <div class="formbox-title">项目名称</div>
+                <div class="formbox-body">
+                    <input type="text" style="height:51px;width:449px"  name="name" value="{$projects_list[0]['name']}">
+                </div>
+            </div>
+            <div class="formbox">
+                <div class="formbox-title">主持人</div>
+                <div class="formbox-body">
+                    <input type="text" style="height:51px;width:449px"  name="director" value="{$projects_list[0]['director']}">
+                </div>
+            </div>
+            <div class="formbox">
+                <div class="formbox-title">项目来源</div>
+                <div class="formbox-body">
+                    <input  type="text" name="source" value="{$projects_list[0]['source']}">
+                </div>
+            </div>
+            <div class="formbox">
+                <div class="formbox-title">项目金额</div>
+                <div class="formbox-body">
+                    <input type="text" style="height:51px;width:449px"  name="amount" value="{$projects_list[0]['amount']}">
+                </div>
+            </div>
+            <div class="formbox">
+                <div class="formbox-title">项目介绍</div>
+                <div class="formbox-body">
+                    <textarea name="content" style="height:251px;width:776px">{$projects_list[0]['content']}</textarea>
+                </div>
+            </div>
+            <input type='hidden' name="id" value="{$id}">
+            <div class="info"></div>
+            <input type="submit" value="确认修改" class="add-but" />
+        </form>
+    </div>
+</block>

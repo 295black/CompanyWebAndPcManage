@@ -1,0 +1,26 @@
+<extend name="public:header" />
+<block name="load-css">
+    <load href="__CSS__/result.css" />
+</block>
+<block name="main">
+<div class="main">
+    <div class="position"> 您现在正在浏览： <a href="/">首页</a> » 成果展示</div>
+    <div class="">
+        <div class="mleft">
+            <div class="left-top left-result">
+          <h4 class="news-title">成果列表</h4>
+            <ul>
+              <?php 
+                foreach ($result_list as $value) {
+                    echo "<li><a href='/home/result/result_info?rid=".$value['id']."'>".$value['title']."</a></li>";
+                }
+              ?>
+            </ul>
+                <div class="page-div">{$page}</div>
+
+            </div>
+        </div>
+      <include file="public:right" />
+    </div>
+  </div>  
+</block>

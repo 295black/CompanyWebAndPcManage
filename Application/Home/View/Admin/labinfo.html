@@ -1,0 +1,13 @@
+<extend name="public:menu"/>
+<block name="main">
+    <div class="container-fluid">
+        <h3 class="page-title">实验室信息</h3>
+        <!--新增按钮-->
+        <a href="/home/admin/labinfo_edit" class="plus">修改</i></a>
+                <div class="formbox">
+                <div class="formbox-body">
+                    <textarea name="content" style="height:351px;width:1000px"disabled=ture>{$labinfo_list['info']}</textarea>
+                </div>
+            </div>
+    </div>
+</block>	

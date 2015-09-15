@@ -1,0 +1,50 @@
+<extend name="public:header" />
+<block name="load-css">
+    <load href="__CSS__/news.css" />
+</block>
+<block name="main">
+<div class="main">
+    <div class="position"> 您现在正在浏览： <a href="/">首页</a> » 新闻中心</div>
+    <div class="">
+        <div class="mleft left-news">
+          <div class="left-top">
+            <h2 class="news-title">>>实验室新闻</h2>
+            <ul>
+              <?php
+                  foreach ($news_list as $value) {
+                    if($value['group'] == 1){
+                      echo "<li><span>".$value['time']."</span><a href='/home/news/news_info?nid=".$value['nid']."&type=".$value['type']."'>".$value['title']."</a></li>";
+                    }
+                  }
+              ?>
+            </ul>
+          </div>
+          <div class="left-top">
+            <h2 class="news-title">>>杭电新闻</h2>
+            <ul>
+              <?php
+                  foreach ($news_list as $value) {
+                    if($value['group'] == 2){
+                      echo "<li><span>".$value['time']."</span><a href='/home/news/news_info?nid=".$value['nid']."&type=".$value['type']."'>".$value['title']."</a></li>";
+                    }
+                  }
+              ?>
+            </ul>
+          </div>
+          <div class="left-top">
+            <h2 class="news-title">>>国内新闻</h2>
+            <ul>
+              <?php
+                  foreach ($news_list as $value) {
+                    if($value['group'] == 3){
+                      echo "<li><span>".$value['time']."</span><a href='/home/news/news_info?nid=".$value['nid']."&type=".$value['type']."'>".$value['title']."</a></li>";
+                    }
+                  }
+              ?>
+            </ul>
+          </div>
+        </div>
+        <include file="public:right" />
+    </div>
+  </div>  
+</block>

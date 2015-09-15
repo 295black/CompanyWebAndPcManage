@@ -1,0 +1,23 @@
+<extend name="public:header" />
+<block name="load-css">
+    <load href="__CSS__/style_front.css" />
+</block>
+<block name="main">
+    <div class="main">
+        <div class="position"> 您现在正在浏览： <a href="/">首页</a> » {$title}</div>
+        <div class="">
+            <div class="mleft">
+                <h4 class="result-title"><span>{$info[0]['title']}</span></h4>
+                <div class="msgbar">
+                    发布时间： {$info[0]['time']}
+                </div>
+                <div class="result-content">
+                    <p>
+                        <pre>{$info[0]['content']}</pre>
+                    </p>
+                </div>
+            </div>
+            <include file="public:right" />
+        </div>
+    </div>
+</block>

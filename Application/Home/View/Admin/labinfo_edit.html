@@ -1,0 +1,15 @@
+<extend name="public:menu"/>
+<block name="main">
+    <div class="container-fluid">
+        <h3 class="page-title">实验室信息修改</h3>
+        <form action="/home/admin/labinfo_update" method="post">
+            <div class="formbox">
+                <div class="formbox-body">
+                    <textarea name="info" style="height:251px;width:776px">{$labinfo_list['info']}</textarea>
+                </div>
+            </div>
+            <div class="info"></div>
+            <input type="submit" value="确认修改" class="add-but" />
+        </form>
+    </div>
+</block>

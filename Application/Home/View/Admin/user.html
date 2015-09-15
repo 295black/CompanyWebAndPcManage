@@ -1,0 +1,53 @@
+<extend name="public:menu"/>
+<block name="main">
+    <div class="container-fluid">
+        <h3 class="page-title">科研团队管理</h3>
+        <!--新增按钮-->
+        <a href="/home/admin/user_add" class="plus">新增<i class="icon-plus"></i></a>
+        <div class="portlet box green">
+            <table class="table table-striped">
+                <thead class="portlet-title">
+                <tr>
+                    <th>#</th>
+                    <th>姓名</th>
+                    <th>年级</th>
+                    <th>性别</th>
+                    <th>身份</th>
+                    <th>详细信息</th>
+                    <th>邮箱</th>
+                    <th>浏览量</th>
+                    <th>操作</th>
+                </tr>
+                </thead>
+                <tbody>
+                <?php
+                    $i  = 0 ;
+                    foreach ($user_list as $value) {
+                        echo "<tr>";
+                        echo "<td>".$value['uid']."</td>";
+                        echo "<td>".$value['name']."</td>";
+						echo "<td>".$value['time']."</td>";
+                        echo "<td>".$value['sex']."</td>";
+                        echo "<td>".$value['type']."</td>";
+                        echo "<td>".$value['resume_content']."</td>";
+                        echo "<td>".$value['resume_email']."</td>";
+                        echo "<td>".$value['views']."</td>";
+                        echo "<td><a class='table-caozuo look' href='/home/admin/user_show?uid=".$value["uid"]."'>查看</a>";
+                        echo "<a class='table-caozuo look' href='/home/admin/user_edit?uid=".$value["uid"]."'>修改</a>";
+                        echo "<a class='table-caozuo look' onclick='del_act(".$value['uid'].")' href='#'>删除</a>";
+                        echo  "</td>";
+                        echo "</tr>";
+                    }
+                ?>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script type="text/javascript">
+        function del_act(id){
+            if(confirm('确定删除？')){
+                window.location.href="/home/admin/user_delete?uid="+id;
+            }
+        }
+    </script>
+</block>

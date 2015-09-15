@@ -1,0 +1,36 @@
+<extend name="public:menu"/>
+<block name="main">
+    <div class="container-fluid">
+        <h3 class="page-title">新闻新增</h3>
+        <form action="/home/admin/news_store" method="post">
+            <div class="formbox">
+                <div class="formbox-title">新闻title</div>
+                <div class="formbox-body">
+                    <input type="text" name="title"style="height:51px;width:449px">
+                </div>
+            </div>
+            <div class="formbox">
+                <div class="formbox-title">新闻内容</div>
+                <div class="formbox-body">
+                    <textarea name="content"style="height:51px;width:449px"></textarea>
+                </div>
+            </div>
+            <div class="formbox">
+                <div class="formbox-title">新闻来源</div>
+                <div class="formbox-body">
+                    <input type="text" name="source">
+                </div>
+            </div>
+            <div class="formbox">
+            	<div class="formbox-title">新闻类型</div>
+                <select name = "group">
+					<option value="1">实验室新闻</option>
+					<option value="2">杭电新闻</option>
+					<option value="3">国内新闻</option>
+				</select>
+            </div>
+            <div class="info"></div>
+            <input type="submit" value="确认新增" class="add-but" />
+        </form>
+    </div>
+</block>

@@ -1,0 +1,24 @@
+a{
+    text-decoration: none;
+}
+
+.hd{
+    overflow: hidden;
+}
+.bg{
+    overflow: hidden;
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.bg-time{
+    position: absolute;
+    left: 10px;
+    top:120px;
+}
+
+.navbar{
+    width: 960px;
+    margin: 0 auto;
+}

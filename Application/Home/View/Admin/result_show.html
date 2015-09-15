@@ -1,0 +1,41 @@
+<extend name="public:menu"/>
+<block name="main">
+    <div class="container-fluid">
+        <h3 class="page-title">通知修改</h3>
+        <form action="/home/admin/result_update" method="post" enctype="multipart/form-data">
+            <div class="formbox">
+                <div class="formbox-title">成果title</div>
+                <div class="formbox-body">
+                    <input type="text" disabled=ture name="title" value="{$result_list[0]['title']}">
+                </div>
+            </div>
+           <div class="formbox">
+                <div class="formbox-title">作者</div>
+                <div class="formbox-body">
+                    <input type="text" disabled=ture name="author" value="{$result_list[0]['author']}">
+                </div>
+            </div>
+            <div class="formbox">
+                <div class="formbox-title">类型</div>
+                <div class="formbox-body">
+                	<select name="type" disabled=ture>
+                		<option value="0" <?php if($user_list['sex'] == '论文')  echo selected; ?>>论文</option>
+                		<option value="1" <?php if($user_list['sex'] == '其他')  echo selected; ?>>其他</option>
+            		<select>
+                </div>
+            </div>
+            <div class="formbox">
+                <div class="formbox-title">文件</div>
+                <div class="formbox-body">
+				<input type="text" disabled=ture name="filename" disabled=ture value="{$result_list[0]['file']}"> 
+                </div>
+            </div>
+            <div class="formbox">
+                <div class="formbox-title">成果内容</div>
+                <div class="formbox-body">
+                    <textarea disabled=ture name="content"style="height:151px;width:449px">{$result_list[0]['content']}</textarea>
+                </div>
+            </div>
+        </form>
+    </div>
+</block>

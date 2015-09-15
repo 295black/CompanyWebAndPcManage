@@ -1,0 +1,48 @@
+<extend name="public:menu"/>
+<block name="main">
+    <div class="container-fluid">
+        <h3 class="page-title">通知管理</h3>
+        <!--新增按钮-->
+        <a href="/home/admin/notice_add" class="plus">新增<i class="icon-plus"></i></a>
+        <div class="portlet box green">
+            <table class="table table-striped">
+                <thead class="portlet-title">
+                <tr>
+                    <th>#</th>
+                    <th>通知title</th>
+                    <th>通知内容</th>
+                    <th>浏览量</th>
+                    <th>来源</th>
+                    <th>发布时间</th>
+                    <th>操作</th>
+                </tr>
+                </thead>
+                <tbody>
+                <?php
+                    foreach ($notices_list as $value) {
+                        echo "<tr>";
+                        echo "<td>".$value['nid']."</td>";
+                        echo "<td>".$value['title']."</td>";
+                        echo "<td>".$value['content']."</td>";
+                        echo "<td>".$value['views']."</td>";
+                        echo "<td>".$value['source']."</td>";
+                        echo "<td>".$value['time']."</td>";
+                        echo "<td><a class='table-caozuo look' href='/home/admin/notice_show?nid=".$value["nid"]."'>查看</a>";
+                        echo "<a class='table-caozuo look' href='/home/admin/notice_edit?nid=".$value["nid"]."'>修改</a>";
+                        echo "<a class='table-caozuo look' onclick='del_act(".$value['nid'].")' href='#'>删除</a>";
+                        echo  "</td>";
+                        echo "</tr>";
+                    }
+                ?>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script type="text/javascript">
+        function del_act(id){
+            if(confirm('确定删除？')){
+                window.location.href="/home/admin/notice_delete?nid="+id;
+            }
+        }
+    </script>
+</block>

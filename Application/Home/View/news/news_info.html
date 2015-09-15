@@ -1,0 +1,21 @@
+<extend name="public:header" />
+<block name="main">
+<div class="main">
+    <div class="position"> 您现在正在浏览： <a href="/">首页</a> » {$title}</div>
+    <div class="">
+        <div class="mleft">
+           <h4 class="news-title">{$info[0]['title']}</h4>
+            <div class="msgbar">
+                发布时间： {$info[0]['time']} 来源：{$info[0]['source']} 浏览次数：
+                <span id="views">{$info[0]['views']}</span>
+            </div>
+           <div class="news-content">
+              <p>
+                <pre><div>{$info[0]['content']}</div></pre>
+              </p>
+           </div>
+        </div>
+        <include file="public:right" />
+    </div>
+  </div>  
+</block>

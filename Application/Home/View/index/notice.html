@@ -1,0 +1,27 @@
+<extend name="public:header" />
+<block name="load-css">
+    <load href="__CSS__/style_front.css" />
+</block>
+<block name="main">
+    <div class="main">
+        <div class="position"> 您现在正在浏览： <a href="/">首页</a> » 通知公告</div>
+        <div class="">
+            <div class="mleft left-notice">
+                <div class="left-top">
+                    <h2 class="news-title">>>通知公告</h2>
+                    <ul>
+                        <?php
+                  foreach ($notice_list as $value) {
+                      echo "<li><span>[通知公告]".$value['time']."</span><a href='/home/news/news_info?nid=".$value['nid']."&type=".$value['type']."'>".$value['title']."</a></li>";
+                        }
+                        ?>
+                    </ul>
+                </div>
+                <div class="page-div">
+                    {$page}
+                </div>
+            </div>
+            <include file="public:right" />
+        </div>
+    </div>
+</block>

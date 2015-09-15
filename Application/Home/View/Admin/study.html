@@ -1,0 +1,42 @@
+<extend name="public:menu"/>
+<block name="main">
+    <div class="container-fluid">
+        <h3 class="page-title">研究热点管理</h3>
+        <!--新增按钮-->
+        <a href="/home/admin/study_add" class="plus">新增<i class="icon-plus"></i></a>
+        <div class="portlet box green">
+            <table class="table table-striped">
+                <thead class="portlet-title">
+                <tr>
+                    <th>#</th>
+                    <th>研究名称</th>
+                    <th>研究介绍</th>
+                    <th>操作</th>
+                </tr>
+                </thead>
+                <tbody>	
+                <?php
+                    foreach ($study_list as $value) {
+                        echo "<tr>";
+                        echo "<td>".$value['id']."</td>";
+                        echo "<td>".$value['title']."</td>";
+                        echo "<td>".$value['content']."</td>";
+                        echo "<td><a class='table-caozuo look' href='/home/admin/study_show?id=".$value["id"]."'>查看</a>";
+                        echo "<a class='table-caozuo look' href='/home/admin/study_edit?id=".$value["id"]."'>修改</a>";
+                        echo "<a class='table-caozuo look' onclick='del_act(".$value['id'].")' href='#'>删除</a>";
+                        echo  "</td>";
+                        echo "</tr>";
+                    }
+                ?>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script type="text/javascript">
+        function del_act(id){
+            if(confirm('确定删除？')){
+                window.location.href="/home/admin/study_delete?id="+id;
+            }
+        }
+    </script>
+</block>

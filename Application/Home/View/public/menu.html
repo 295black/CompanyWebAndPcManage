@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<title>{$title}</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>{$title}</title>
+    <load href="__CSS__/header.css" />
+    <load href="__PUBLIC__/bootstrap2.3/css/bootstrap.min.css"/>
+    <load href="__JS__/jquery.js" />
+    <load href="__PUBLIC__/bootstrap2.3/js/bootstrap.min.js"/>
+    <load href="__CSS__/style.css" />
+    <load href="__CSS__/font-awesome.min.css" />
+</head>
+
+<body>
+<!--顶部开始-->
+<div class="header navbar-fixed-top">
+  <div class="padding-lr20"> <a class="logo" href="#"><img src=""></a>
+    <ul class="nav">
+      <li class="dropdown user"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <img src="images/user.jpg" /> <span class="username">robo</span> <i class="icon-angle-down"></i> </a>
+        <!--用户弹出框-->
+        <ul class="dropdown-menu">
+          <li><a href="/home/index"><i class="icon-lock"></i>退出登录</a></li>
+        </ul>
+        <!--用户弹出框-->
+      </li>
+    </ul>
+  </div>
+</div>
+<!--顶部结束-->
+<!--内容开始-->
+<div class="page-container">
+  <div class="page-sidebar nav-collapse collapse">
+    <ul class="page-sidebar-menu">
+      <li class=""> <a href="/home/admin/labinfo"> <i class="icon-gift"></i> <span class="title">实验室信息</span></a></li>
+      <li class=""> <a href="/home/admin/notice"> <i class="icon-cog"></i> <span class="title">通知管理</span> </a></li>
+      <li class=""> <a href="/home/admin/news"> <i class="icon-calendar"></i> <span class="title">新闻管理</span> </a></li>
+      <li class=""> <a href="/home/admin/user"> <i class="icon-user"></i> <span class="title">科研团队管理</span> </a></li>
+      <li class=""> <a href="/home/admin/projects"> <i class="icon-lock"></i> <span class="title">科研项目管理</span> </a> </li>
+      <li class=""> <a href="/home/admin/result"> <i class="icon-folder-open-alt"></i> <span class="title">成果展示管理</span> </a> </li>
+      <li class=""> <a href="/home/admin/study"> <i class="icon-thumbs-up"></i> <span class="title">研究热点管理</span> </a> </li>
+      <li class=""> <a href="/home/admin/links"> <i class="icon-envelope-alt"></i> <span class="title">常用链接管理</span> </a> </li>
+    </ul>
+  </div>
+  <div class="page-content">
+      <block name="main">
+
+      </block>
+  </div>
+</div>
+<!--内容结束-->
+
+
+</body>
+</html>

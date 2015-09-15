@@ -1,0 +1,27 @@
+<extend name="public:header" />
+<block name="load-css">
+    <load href="__PUBLIC__/typeahead/typeahead.min.js" />
+    <load href="__JS__/search.js" />
+    <load href="__CSS__/search.css" />
+</block>
+<block name="main">
+<div class="main">
+    <div class="position"> 您现在正在浏览： <a href="/">首页</a> » 搜索</div>
+    <div class="mleft">
+        <div class="left-top left-search">
+        	<div class="news-title"><span>搜索结果</span></div>
+        	<div>
+        		<ul>
+                    <?php 
+                    	foreach ($result_list as $value) {
+                        	echo "<li><span>".$value['time']."</span><a href='/home/news/news_info?nid=".$value['nid']."&type=".$value['type']."'>".$value['title']."</a></li>";
+                    }
+                    ?>
+        		</ul>
+        	</div>
+        </div>
+
+    </div>
+    <include file="public:right" />
+</div>
+</block>

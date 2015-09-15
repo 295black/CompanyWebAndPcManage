@@ -1,0 +1,28 @@
+<extend name="public:menu"/>
+<block name="main">
+    <div class="container-fluid">
+        <h3 class="page-title">友情链接新增</h3>
+        <form action="/home/admin/links_store" method="post" enctype="multipart/form-data">
+            <div class="formbox">
+                <div class="formbox-title">友情链接名称</div>
+                <div class="formbox-body">
+                    <input type="text" style="height:51px;width:449px"  name="link" }">
+                </div>
+            </div>
+            <div class="formbox">
+                <div class="formbox-title">LOGO</div>
+                <div class="formbox-body">
+				<input type="file" name="file" id = "file"/> 
+                </div>
+            </div>
+            <div class="formbox">
+                <div class="formbox-title">URL</div>
+                <div class="formbox-body">
+                    <textarea name="url" style="height:51px;width:449px"></textarea>
+                </div>
+            </div>
+            <div class="info"></div>
+            <input type="submit" value="确认新增" class="add-but" />
+        </form>
+    </div>
+</block>

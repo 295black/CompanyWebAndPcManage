@@ -1,0 +1,57 @@
+<extend name="public:menu"/>
+<block name="main">
+    <div class="container-fluid">
+        <h3 class="page-title">科研团队查看</h3>
+        <form action="/home/admin/user_update" method="post">
+            <div class="formbox">
+                <div class="formbox-title">姓名</div>
+                <div class="formbox-body">
+                    <input type="text" style="height:51px;width:449px" disabled=ture name="name" value="{$user_list['name']}">
+                </div>
+            </div>
+            <div class="formbox">
+                <div class="formbox-title">图片</div>
+                <div class="formbox-body">
+               		 <img src="<?php echo $user_list['img'];?>"width="144" height="146">
+                </div>
+            </div>
+            <div class="formbox">
+                <div class="formbox-title">性别</div>
+                <div class="formbox-body">
+                	<select name="sex" disabled=ture >
+                		<option value="0" <?php if($user_list['sex'] == '男')  echo selected; ?>>男</option>
+                		<option value="1" <?php if($user_list['sex'] == '女')  echo selected; ?>>女</option>
+            		<select>
+                </div>
+            </div>
+            <div class="formbox">
+                <div class="formbox-title">身份</div>
+                <div class="formbox-body">
+				<select name="type" disabled=ture>
+                	<option value="0" <?php if($user_list['type'] == '导师')  echo selected; ?>>导师</option>
+                	<option value="1" <?php if($user_list['type'] == '研究生')  echo selected; ?>>研究生</option> 
+                	<option value="2" <?php if($user_list['type'] == '本科')  echo selected; ?>>本科</option>   	
+            	<select>                
+            	</div>
+            </div>
+            <div class="formbox">
+            	<div class="formbox-title">年级</div>
+                    <input type="text" style="height:51px;width:449px" disabled=ture name="name" value="{$user_list['time']}"> 导师为0 
+            </div>
+            <div class="formbox">
+                <div class="formbox-title">详细信息</div>
+                <div class="formbox-body">
+                    <textarea name="content" style="height:251px;width:776px" disabled=ture>{$user_list['resume_content']}</textarea>
+                </div>
+            </div>
+            <div class="formbox">
+                <div class="formbox-title">邮箱</div>
+                <div class="formbox-body">
+                    <input type="text" style="height:51px;width:449px" disabled=ture name="name" value="{$user_list['resume_email']}">
+                </div>
+            </div>
+            <input type='hidden' name="nid" value="{$nid}">
+            <div class="info"></div>
+        </form>
+    </div>
+</block>

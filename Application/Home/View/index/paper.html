@@ -1,0 +1,25 @@
+<extend name="public:header" />
+<block name="load-css">
+    <load href="__CSS__/paper.css" />
+</block>
+<block name="main">
+<div class="main">
+    <div class="position"> 您现在正在浏览： <a href="/">首页</a> » 发表论文</div>
+    <div class="mleft">
+        <div class="left-top left-paper">
+            <h2 class="news-title">>>发表论文</h2>
+        	<ul>
+              <?php 
+                foreach ($result_list as $value) {
+                    echo "<li><span>[论文共享]</span><a href='/home/paper/paper_info?rid=".$value['id']."'>".$value['title']."</a></li>";
+                }
+              ?>
+            </ul>
+            <div class="page-div">
+                {$page}
+            </div>
+        </div>
+    </div>
+    <include file="public:right" />
+  </div>  
+</block>

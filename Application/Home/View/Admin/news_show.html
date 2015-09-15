@@ -1,0 +1,38 @@
+<extend name="public:menu"/>
+<block name="main">
+    <div class="container-fluid">
+        <h3 class="page-title">新闻查看</h3>
+        <form action="/home/admin/news_update" method="post">
+            <div class="formbox">
+                <div class="formbox-title">通知title</div>
+                <div class="formbox-body">
+                    <input type="text" style="height:51px;width:449px" disabled=ture name="title" value="{$notice[0]['title']}">
+                </div>
+            </div>
+            <div class="formbox">
+                <div class="formbox-title">通知内容</div>
+                <div class="formbox-body">
+                    <textarea name="content" style="height:251px;width:776px" disabled=ture>{$notice[0]['content']}</textarea>
+                </div>
+            </div>
+            <div class="formbox">
+                <div class="formbox-title">通知来源</div>
+                <div class="formbox-body">
+                    <input disabled=ture type="text" name="source" value="{$notice[0]['source']}">
+                </div>
+            </div>
+            <div class="formbox">
+                <div class="formbox-title">新闻类型</div>
+                <div class="formbox-body">
+				<select name="type" disabled=ture>
+                	<option value="1" <?php if($notice['0']['group'] == '1')  echo selected; ?>>实验室新闻</option>
+                	<option value="2" <?php if($notice['0']['group'] == '2')  echo selected; ?>>杭电新闻</option> 
+                	<option value="3" <?php if($notice['0']['group'] == '3')  echo selected; ?>>国内新闻</option>   	
+            	<select>                
+            	</div>
+            </div>
+            <input type='hidden' name="nid" value="{$nid}">
+            <div class="info"></div>
+        </form>
+    </div>
+</block>

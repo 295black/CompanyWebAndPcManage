@@ -1,0 +1,55 @@
+<extend name="public:menu"/>
+<block name="main">
+    <div class="container-fluid">
+        <h3 class="page-title">科研团队新增</h3>
+        <form action="/home/admin/user_store" method="post" enctype="multipart/form-data">
+            <div class="formbox">
+                <div class="formbox-title">姓名</div>
+                <div class="formbox-body">
+                    <input type="text" name="name">
+                </div>
+            </div>
+            <div class="formbox">
+                <div class="formbox-title">照片</div>
+                <div class="formbox-body">
+				<input type="file" name="file" id = "file"/> 
+                </div>
+            </div>
+            <div class="formbox">
+            	<div class="formbox-title">性别</div>
+                <select  name = "sex">
+					<option value="0">男</option>
+					<option value="1">女</option>
+				</select>
+            </div>
+            <div class="formbox">
+            	<div class="formbox-title">身份</div>
+                <select name = "type">
+					<option value="2">本科</option>
+					<option value="1">研究生</option>
+					<option value="0">导师</option>
+				</select>
+            </div>
+            <div class="formbox">
+            	<div class="formbox-title">年级</div>
+                    <input type="text" name="time"> 导师为0 
+            </div>
+            <div class="formbox">
+                <div class="formbox-title">邮箱</div>
+                <div class="formbox-body">
+                    <input type="text" name="email">
+                </div>
+            </div>
+            <div class="formbox">
+                <div class="formbox-title">详细信息</div>
+                <div class="formbox-body">
+                    <textarea name="content" style="height:51px;width:449px"></textarea>
+                </div>
+            </div>
+            
+            <div class="info"></div>
+            <input type="submit" value="确认新增" class="add-but" />
+            
+        </form>
+    </div>
+</block>

@@ -1,0 +1,2755 @@
+[ 2014-04-02T20:15:52+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `topic` [ RunTime:0.027001s ]
+SQL: SELECT * FROM `topic` WHERE ( type=1 ) ORDER BY id desc LIMIT 0,11   [ RunTime:0.002001s ]
+SQL: SELECT * FROM `topic` WHERE ( type=2 ) ORDER BY id desc LIMIT 0,11   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `topic` WHERE ( type=3 ) ORDER BY id desc LIMIT 0,11   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `topic` WHERE ( type=4 ) ORDER BY id desc LIMIT 0,11   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `topic` WHERE ( type=6 ) ORDER BY id desc LIMIT 0,11   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: name G:\github\tp-demo\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [2] Invalid argument supplied for foreach() G:\github\tp-demo\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 98 行.
+NOTIC: [2] Invalid argument supplied for foreach() G:\github\tp-demo\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 111 行.
+NOTIC: [2] Invalid argument supplied for foreach() G:\github\tp-demo\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 124 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-04-02T20:23:49+08:00 ] 127.0.0.1 /home/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-04-02T20:23:52+08:00 ] 127.0.0.1 /home/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-04-02T20:23:52+08:00 ] 127.0.0.1 /home/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-04-02T20:25:55+08:00 ] 127.0.0.1 /home/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-04-02T20:26:02+08:00 ] 127.0.0.1 /home/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-04-02T20:28:45+08:00 ] 127.0.0.1 /home/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-04-02T20:28:50+08:00 ] 127.0.0.1 /home/admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-04-02T20:28:52+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 模板不存在:./Application/Home/View/Admin/verify.html
+
+[ 2014-04-02T20:32:29+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-04-02T20:42:14+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 4 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-04-02T20:42:15+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 4 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-04-02T20:42:15+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: title G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 4 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-04-02T20:42:15+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 4 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-04-02T20:55:44+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-04-02T21:09:16+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-04-02T21:09:39+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-04-02T21:09:44+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-04-02T21:09:57+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-04-02T21:10:36+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 13 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 22 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 24 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 30 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 38 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 47 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 49 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 55 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 63 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 72 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 74 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 80 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 88 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 98 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-04-02T21:12:07+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 24 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 33 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 35 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 41 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 49 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 58 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 60 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 66 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 74 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 83 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 85 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 91 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 99 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 109 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-04-02T21:14:41+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 24 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 33 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 35 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 41 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 49 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 58 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 60 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 66 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 74 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 83 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 85 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 91 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 99 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 109 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-04-02T21:16:39+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 25 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 34 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 36 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 42 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 50 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 59 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 61 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 67 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 75 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 84 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 86 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 92 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 100 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 110 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2014-04-02T21:17:00+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined property: Think\Storage\Driver\File::$session G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 27 行.
+
+[ 2014-04-02T21:17:35+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 36 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 45 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 47 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 53 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 61 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 70 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 72 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 78 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 86 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 95 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 97 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 103 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 111 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-04-02T21:18:37+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 36 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 45 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 47 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 53 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 61 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 70 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 72 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 78 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 86 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 95 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 97 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 103 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 111 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-04-02T21:19:27+08:00 ] 127.0.0.1 /home/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-04-02T21:19:39+08:00 ] 127.0.0.1 /home/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-04-02T21:19:44+08:00 ] 127.0.0.1 /home/admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-04-02T21:19:47+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 36 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 45 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 47 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 53 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 61 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 70 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 72 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 78 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 86 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 95 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 97 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 103 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 111 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-04-02T21:20:14+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 36 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 45 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 47 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 53 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 61 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 70 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 72 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 78 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 86 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 95 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 97 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 103 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 111 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-04-02T21:23:08+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 36 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 45 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 47 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 53 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 61 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 70 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 72 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 78 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 86 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 95 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 97 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 103 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 111 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-04-02T21:26:45+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 38 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 48 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 51 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 57 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 66 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 76 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 79 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 85 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 94 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 104 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 106 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 112 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 121 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 132 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-04-02T21:26:51+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 38 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 48 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 51 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 57 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 66 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 76 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 79 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 85 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 94 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 104 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 106 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 112 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 121 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 132 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-04-02T21:27:43+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-04-02T21:28:35+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-04-02T21:28:36+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2014-04-02T21:29:13+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-04-02T21:29:14+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-04-02T21:29:15+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-04-02T21:29:15+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-04-02T21:29:15+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-04-02T21:31:06+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-04-02T21:34:53+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 41 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 52 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 55 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 61 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 70 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 80 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 83 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 89 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 98 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 108 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 111 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 117 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 126 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-04-02T21:35:26+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 41 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 52 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 55 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 61 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 70 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 80 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 83 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 89 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 98 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 108 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 111 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 117 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 126 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-04-02T21:35:43+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 41 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 52 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 55 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 61 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 70 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 80 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 83 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 89 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 98 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 108 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 111 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 117 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 126 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-04-02T21:37:00+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 41 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 52 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 55 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 61 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 70 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 80 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 83 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 89 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 98 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 108 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 111 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 117 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 126 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-04-02T21:38:12+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 41 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 52 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 55 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 61 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 70 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 80 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 83 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 89 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 98 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 108 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 111 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 117 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 126 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-04-02T21:38:24+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 41 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 52 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 55 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 61 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 70 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 80 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 83 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 89 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 98 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 108 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 111 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 117 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 126 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-04-02T21:38:43+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 41 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 52 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 55 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 61 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 70 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 80 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 83 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 89 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 98 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 108 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 111 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 117 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 126 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-04-02T21:39:41+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 41 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 52 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 55 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 61 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 70 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 80 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 83 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 89 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 98 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 108 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 111 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 117 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 126 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-04-02T21:39:52+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 41 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 52 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 55 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 61 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 70 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 80 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 83 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 89 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 98 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 108 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 111 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 117 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 126 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-04-02T21:40:03+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 41 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 52 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 55 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 61 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 70 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 80 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 83 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 89 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 98 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 108 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 111 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 117 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 126 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-04-02T21:40:24+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 41 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 52 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 55 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 61 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 70 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 80 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 83 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 89 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 98 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 108 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 111 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 117 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 126 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-04-02T21:40:34+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 41 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 52 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 55 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 61 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 70 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 80 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 83 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 89 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 98 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 108 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 111 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 117 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 126 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-04-02T21:55:03+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 41 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 52 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 55 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 61 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 70 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 80 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 83 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 89 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 98 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 108 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 111 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 117 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 126 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-04-02T21:55:26+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 40 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 51 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 54 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 60 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 69 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 79 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 82 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 88 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 97 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 107 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 110 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 116 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 125 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 136 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-04-02T21:55:36+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 40 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 51 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 54 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 60 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 69 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 79 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 82 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 88 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 97 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 107 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 110 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 116 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 125 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 136 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-04-02T21:56:22+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 40 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 51 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 54 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 60 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 69 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 79 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 82 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 88 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 97 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 107 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 110 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 116 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 125 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 136 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-04-02T21:56:51+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 40 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 51 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 54 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 60 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 69 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 79 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 82 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 88 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 97 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 107 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 110 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-04-02T22:08:43+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 40 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 51 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 54 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 60 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 69 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 79 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 82 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 88 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 97 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 107 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 110 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-04-02T22:10:42+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 40 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 51 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 54 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 60 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 69 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 79 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 82 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 88 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 97 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 107 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 110 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-04-02T22:10:43+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 40 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 51 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 54 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 60 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 69 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 79 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 82 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 88 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 97 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 107 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 110 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-04-02T22:11:55+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 40 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 51 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 54 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 60 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 69 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 79 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 82 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 88 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 97 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 107 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 110 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-04-02T22:12:25+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 50 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 53 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 59 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 68 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 78 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 81 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 87 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 96 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 106 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 109 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-04-02T22:12:26+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 50 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 53 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 59 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 68 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 78 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 81 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 87 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 96 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 106 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 109 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-04-02T22:12:51+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 50 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 53 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 59 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 68 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 78 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 81 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 87 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 96 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 106 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 109 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-04-02T22:13:11+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 49 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 52 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 58 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 67 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 77 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 80 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 86 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 95 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 105 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 108 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 114 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2014-04-02T22:13:59+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 49 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 60 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 70 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 73 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 79 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 88 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 98 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 101 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2014-04-02T22:14:11+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 49 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 60 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 70 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 73 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 79 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 88 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 98 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 101 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-04-02T22:14:12+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 49 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 60 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 70 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 73 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 79 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 88 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 98 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 101 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-04-02T22:14:13+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 49 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 60 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 70 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 73 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 79 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 88 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 98 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 101 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-04-02T22:15:39+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 58 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 68 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 71 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 77 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 86 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 96 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 99 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-04-02T22:16:00+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 67 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 70 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 76 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 85 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 95 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 98 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-04-02T22:16:09+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 67 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 70 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 76 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 85 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 95 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 98 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-04-02T22:16:12+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 67 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 70 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 76 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 85 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 95 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 98 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-04-02T22:16:58+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 59 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 62 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 68 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 77 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 87 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 90 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-04-02T22:17:07+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 59 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 62 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 68 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 77 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 87 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 90 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-04-02T22:17:24+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 59 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 62 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 68 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 77 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 87 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 90 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-04-02T22:17:25+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 59 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 62 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 68 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 77 行.
+NOTIC: [8] Undefined variable: primary G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 87 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 90 行.
+NOTIC: [8] Undefined variable: useraction G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-04-02T22:21:34+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-04-02T22:21:36+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-04-02T22:21:36+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-04-02T22:22:33+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-04-02T22:22:35+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-04-02T22:22:35+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2014-04-02T22:23:42+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-04-02T22:24:00+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-04-02T22:24:14+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-04-02T22:25:29+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-04-02T22:25:51+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2014-04-02T22:25:52+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-04-02T22:25:52+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-04-02T22:25:58+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-04-02T22:26:41+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-04-02T22:26:42+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-04-02T22:27:00+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2014-04-02T22:27:14+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-04-02T22:28:33+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-04-02T22:28:54+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-04-02T22:29:08+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-04-02T22:29:46+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-04-02T22:29:51+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-04-02T22:30:23+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-04-02T22:30:36+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-04-02T22:31:10+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-04-02T22:31:36+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-04-02T22:31:52+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-04-02T22:31:57+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-04-02T22:32:12+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-04-02T22:32:19+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: community_list G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 119 行.
+NOTIC: [2] Invalid argument supplied for foreach() G:\github\tp-demo\Application\Runtime\Cache\Home\413acc1fce7064ac1fdba65527e42cd8.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-04-02T22:32:36+08:00 ] 127.0.0.1 /home/admin/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

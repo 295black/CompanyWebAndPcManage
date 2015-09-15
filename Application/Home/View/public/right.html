@@ -1,0 +1,27 @@
+<div class="mright">
+  <h2>相关文章</h2>
+  <div>
+    <span>>>热门资讯</span>
+    <div class="news-list">
+      <ul>
+        <?php 
+            foreach ($hot_news as $value) {
+                echo "<li><span>".$value['time']."</span><a href='/home/news/news_info?nid=".$value['nid']."&type=".$value['type']."'>".$value['title']."</a></li>";
+            }
+        ?>
+      </ul>
+    </div>
+  </div>
+  <div>
+    <span>>>人气之星</span>
+    <div class="image-list">
+      <ul>
+          <?php
+              foreach ($hot_students as $svalue) {
+                echo "<li><a href='/home/user?id=".$svalue['uid']."'><img src='".$svalue['img']."' /></a></li>";
+              }
+          ?>
+      </ul>
+    </div>
+  </div>
+</div>

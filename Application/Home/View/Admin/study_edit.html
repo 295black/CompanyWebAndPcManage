@@ -1,0 +1,23 @@
+<extend name="public:menu"/>
+<block name="main">
+    <div class="container-fluid">
+        <h3 class="page-title">研究热点修改</h3>
+        <form action="/home/admin/study_update" method="post">
+            <div class="formbox">
+                <div class="formbox-title">研究热点名称</div>
+                <div class="formbox-body">
+                    <input type="text" style="height:51px;width:449px"  name="title" value="{$study_list[0]['title']}">
+                </div>
+            </div>
+            <div class="formbox">
+                <div class="formbox-title">研究热点介绍</div>
+                <div class="formbox-body">
+                    <textarea name="content" style="height:251px;width:776px">{$study_list[0]['content']}</textarea>
+                </div>
+            </div>
+            <input type='hidden' name="id" value="{$id}">
+            <div class="info"></div>
+            <input type="submit" value="确认修改" class="add-but" />
+        </form>
+    </div>
+</block>

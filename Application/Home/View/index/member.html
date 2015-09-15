@@ -1,0 +1,36 @@
+<extend name="public:header" />
+<block name="load-css">
+    <load href="__CSS__/member.css" />
+</block>
+<block name="main">
+<div class="main">
+    <div class="position"> 您现在正在浏览： <a href="/">首页</a> » 科研团队</div>
+    <div class="">
+        <div class="mleft">
+          <div class="left-top">
+            <h2 class="member-title">导师风采</h2>
+              <div class="left-teacher">
+            <ul>
+              <?php 
+                  foreach ($teachers_list as $value) {
+                      echo "<li><span>[导师风采]</span><a href='/home/user?id=".$value['uid']."'>".$value['name']."</a></li>";
+                  }
+              ?>
+            </ul>
+                  </div>
+             <h2 class="member-title">学生风采</h2>
+             <div class="left-student">
+                  <ul>
+                      <?php
+                  foreach ($students_list as $value) {
+                      echo "<li><span>[".$value['time']."级学生]</span><a href='/home/user?id=".$value['uid']."'>".$value['name']."</a></li>";
+                      }
+                      ?>
+                  </ul>
+              </div>
+          </div>
+        </div>
+      <include file="public:right" />
+    </div>
+  </div>  
+</block>

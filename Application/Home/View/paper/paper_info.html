@@ -1,0 +1,21 @@
+<extend name="public:header" />
+<block name="main">
+<div class="main">
+    <div class="position"> 您现在正在浏览： <a href="/">首页</a> » {$title}</div>
+    <div class="">
+        <div class="mleft">
+           <h4 class="result-title"><span>{$info[0]['title']}</span></h4>
+            <div class="msgbar">
+                发布时间： {$info[0]['time']} 作者：{$info[0]['author']}
+            </div>
+           <div class="result-content">
+              <p>
+              <pre>{$info[0]['content']}</pre>
+              </p>
+               <div class="file-download">论文下载：<a href="__PUBLIC__/uploads/files/{$info[0]['file']}">{$info[0]['file']}</a></div>
+           </div>
+        </div>
+      <include file="public:right" />
+    </div>
+  </div>  
+</block>

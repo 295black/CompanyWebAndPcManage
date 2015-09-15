@@ -1,0 +1,29 @@
+<extend name="public:menu"/>
+<block name="main">
+    <div class="container-fluid">
+        <h3 class="page-title">通知修改</h3>
+        <form action="/home/admin/notice_update" method="post">
+            <div class="formbox">
+                <div class="formbox-title">通知title</div>
+                <div class="formbox-body">
+                    <input type="text" name="title" value="{$notice[0]['title']}">
+                </div>
+            </div>
+            <div class="formbox">
+                <div class="formbox-title">通知内容</div>
+                <div class="formbox-body">
+                    <textarea name="content"style="height:51px;width:449px">{$notice[0]['content']}</textarea>
+                </div>
+            </div>
+            <div class="formbox">
+                <div class="formbox-title">通知来源</div>
+                <div class="formbox-body">
+                    <input type="text" name="source" value="{$notice[0]['source']}">
+                </div>
+            </div>
+            <input type='hidden' name="nid" value="{$nid}">
+            <div class="info"></div>
+            <input type="submit" value="确认修改" class="add-but" />
+        </form>
+    </div>
+</block>

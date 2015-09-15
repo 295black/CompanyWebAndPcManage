@@ -1,0 +1,1109 @@
+[ 2014-10-25T20:20:06+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `topic` [ RunTime:0.003000s ]
+ERR: 1146:Table 'db_laboratory.topic' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `topic`
+SQL: SELECT * FROM `topic` WHERE ( type=1 ) ORDER BY id desc LIMIT 0,11   [ RunTime:0.000000s ]
+ERR: 1146:Table 'db_laboratory.topic' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `topic` WHERE ( type=1 ) ORDER BY id desc LIMIT 0,11  
+SQL: SELECT * FROM `topic` WHERE ( type=2 ) ORDER BY id desc LIMIT 0,11   [ RunTime:0.001000s ]
+ERR: 1146:Table 'db_laboratory.topic' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `topic` WHERE ( type=2 ) ORDER BY id desc LIMIT 0,11  
+SQL: SELECT * FROM `topic` WHERE ( type=3 ) ORDER BY id desc LIMIT 0,11   [ RunTime:0.000000s ]
+ERR: 1146:Table 'db_laboratory.topic' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `topic` WHERE ( type=3 ) ORDER BY id desc LIMIT 0,11  
+SQL: SELECT * FROM `topic` WHERE ( type=4 ) ORDER BY id desc LIMIT 0,11   [ RunTime:0.001000s ]
+ERR: 1146:Table 'db_laboratory.topic' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `topic` WHERE ( type=4 ) ORDER BY id desc LIMIT 0,11  
+SQL: SELECT * FROM `topic` WHERE ( type=6 ) ORDER BY id desc LIMIT 0,11   [ RunTime:0.000000s ]
+ERR: 1146:Table 'db_laboratory.topic' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `topic` WHERE ( type=6 ) ORDER BY id desc LIMIT 0,11  
+NOTIC: [2] Invalid argument supplied for foreach() G:\github\gaozi\Application\Home\Controller\IndexController.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: info_active G:\github\gaozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2014-10-25T20:20:06+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `topic` [ RunTime:0.003000s ]
+ERR: 1146:Table 'db_laboratory.topic' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `topic`
+SQL: SELECT * FROM `topic` WHERE ( type=1 ) ORDER BY id desc LIMIT 0,11   [ RunTime:0.001000s ]
+ERR: 1146:Table 'db_laboratory.topic' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `topic` WHERE ( type=1 ) ORDER BY id desc LIMIT 0,11  
+SQL: SELECT * FROM `topic` WHERE ( type=2 ) ORDER BY id desc LIMIT 0,11   [ RunTime:0.000000s ]
+ERR: 1146:Table 'db_laboratory.topic' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `topic` WHERE ( type=2 ) ORDER BY id desc LIMIT 0,11  
+SQL: SELECT * FROM `topic` WHERE ( type=3 ) ORDER BY id desc LIMIT 0,11   [ RunTime:0.000000s ]
+ERR: 1146:Table 'db_laboratory.topic' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `topic` WHERE ( type=3 ) ORDER BY id desc LIMIT 0,11  
+SQL: SELECT * FROM `topic` WHERE ( type=4 ) ORDER BY id desc LIMIT 0,11   [ RunTime:0.001000s ]
+ERR: 1146:Table 'db_laboratory.topic' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `topic` WHERE ( type=4 ) ORDER BY id desc LIMIT 0,11  
+SQL: SELECT * FROM `topic` WHERE ( type=6 ) ORDER BY id desc LIMIT 0,11   [ RunTime:0.001000s ]
+ERR: 1146:Table 'db_laboratory.topic' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `topic` WHERE ( type=6 ) ORDER BY id desc LIMIT 0,11  
+NOTIC: [2] Invalid argument supplied for foreach() G:\github\gaozi\Application\Home\Controller\IndexController.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: info_active G:\github\gaozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-10-25T20:33:10+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `topic` [ RunTime:0.002000s ]
+ERR: 1146:Table 'db_laboratory.topic' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `topic`
+SQL: SELECT * FROM `topic` WHERE ( type=1 ) ORDER BY id desc LIMIT 0,11   [ RunTime:0.001000s ]
+ERR: 1146:Table 'db_laboratory.topic' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `topic` WHERE ( type=1 ) ORDER BY id desc LIMIT 0,11  
+SQL: SELECT * FROM `topic` WHERE ( type=2 ) ORDER BY id desc LIMIT 0,11   [ RunTime:0.000000s ]
+ERR: 1146:Table 'db_laboratory.topic' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `topic` WHERE ( type=2 ) ORDER BY id desc LIMIT 0,11  
+SQL: SELECT * FROM `topic` WHERE ( type=3 ) ORDER BY id desc LIMIT 0,11   [ RunTime:0.000000s ]
+ERR: 1146:Table 'db_laboratory.topic' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `topic` WHERE ( type=3 ) ORDER BY id desc LIMIT 0,11  
+SQL: SELECT * FROM `topic` WHERE ( type=4 ) ORDER BY id desc LIMIT 0,11   [ RunTime:0.001000s ]
+ERR: 1146:Table 'db_laboratory.topic' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `topic` WHERE ( type=4 ) ORDER BY id desc LIMIT 0,11  
+SQL: SELECT * FROM `topic` WHERE ( type=6 ) ORDER BY id desc LIMIT 0,11   [ RunTime:0.000000s ]
+ERR: 1146:Table 'db_laboratory.topic' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `topic` WHERE ( type=6 ) ORDER BY id desc LIMIT 0,11  
+NOTIC: [2] Invalid argument supplied for foreach() G:\github\gaozi\Application\Home\Controller\IndexController.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: info_active G:\github\gaozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-10-25T20:33:11+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `topic` [ RunTime:0.002000s ]
+ERR: 1146:Table 'db_laboratory.topic' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `topic`
+SQL: SELECT * FROM `topic` WHERE ( type=1 ) ORDER BY id desc LIMIT 0,11   [ RunTime:0.001000s ]
+ERR: 1146:Table 'db_laboratory.topic' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `topic` WHERE ( type=1 ) ORDER BY id desc LIMIT 0,11  
+SQL: SELECT * FROM `topic` WHERE ( type=2 ) ORDER BY id desc LIMIT 0,11   [ RunTime:0.000000s ]
+ERR: 1146:Table 'db_laboratory.topic' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `topic` WHERE ( type=2 ) ORDER BY id desc LIMIT 0,11  
+SQL: SELECT * FROM `topic` WHERE ( type=3 ) ORDER BY id desc LIMIT 0,11   [ RunTime:0.001000s ]
+ERR: 1146:Table 'db_laboratory.topic' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `topic` WHERE ( type=3 ) ORDER BY id desc LIMIT 0,11  
+SQL: SELECT * FROM `topic` WHERE ( type=4 ) ORDER BY id desc LIMIT 0,11   [ RunTime:0.000000s ]
+ERR: 1146:Table 'db_laboratory.topic' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `topic` WHERE ( type=4 ) ORDER BY id desc LIMIT 0,11  
+SQL: SELECT * FROM `topic` WHERE ( type=6 ) ORDER BY id desc LIMIT 0,11   [ RunTime:0.000000s ]
+ERR: 1146:Table 'db_laboratory.topic' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `topic` WHERE ( type=6 ) ORDER BY id desc LIMIT 0,11  
+NOTIC: [2] Invalid argument supplied for foreach() G:\github\gaozi\Application\Home\Controller\IndexController.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: info_active G:\github\gaozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-10-25T20:33:11+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `topic` [ RunTime:0.003000s ]
+ERR: 1146:Table 'db_laboratory.topic' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `topic`
+SQL: SELECT * FROM `topic` WHERE ( type=1 ) ORDER BY id desc LIMIT 0,11   [ RunTime:0.000000s ]
+ERR: 1146:Table 'db_laboratory.topic' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `topic` WHERE ( type=1 ) ORDER BY id desc LIMIT 0,11  
+SQL: SELECT * FROM `topic` WHERE ( type=2 ) ORDER BY id desc LIMIT 0,11   [ RunTime:0.000000s ]
+ERR: 1146:Table 'db_laboratory.topic' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `topic` WHERE ( type=2 ) ORDER BY id desc LIMIT 0,11  
+SQL: SELECT * FROM `topic` WHERE ( type=3 ) ORDER BY id desc LIMIT 0,11   [ RunTime:0.000000s ]
+ERR: 1146:Table 'db_laboratory.topic' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `topic` WHERE ( type=3 ) ORDER BY id desc LIMIT 0,11  
+SQL: SELECT * FROM `topic` WHERE ( type=4 ) ORDER BY id desc LIMIT 0,11   [ RunTime:0.000000s ]
+ERR: 1146:Table 'db_laboratory.topic' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `topic` WHERE ( type=4 ) ORDER BY id desc LIMIT 0,11  
+SQL: SELECT * FROM `topic` WHERE ( type=6 ) ORDER BY id desc LIMIT 0,11   [ RunTime:0.000000s ]
+ERR: 1146:Table 'db_laboratory.topic' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `topic` WHERE ( type=6 ) ORDER BY id desc LIMIT 0,11  
+NOTIC: [2] Invalid argument supplied for foreach() G:\github\gaozi\Application\Home\Controller\IndexController.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: info_active G:\github\gaozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-10-25T20:33:12+08:00 ] 127.0.0.1 /home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_labinfo` [ RunTime:0.003000s ]
+ERR: Think\Model:getInfo方法不存在！
+
+[ 2014-10-25T20:33:13+08:00 ] 127.0.0.1 /home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_labinfo` [ RunTime:0.002000s ]
+ERR: Think\Model:getInfo方法不存在！
+
+[ 2014-10-25T20:35:54+08:00 ] 127.0.0.1 /home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_labinfo` [ RunTime:0.002000s ]
+ERR: Think\Model:getInfo方法不存在！
+
+[ 2014-10-25T20:35:55+08:00 ] 127.0.0.1 /home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_labinfo` [ RunTime:0.003000s ]
+ERR: Think\Model:getInfo方法不存在！
+
+[ 2014-10-25T20:35:55+08:00 ] 127.0.0.1 /home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_labinfo` [ RunTime:0.002000s ]
+ERR: Think\Model:getInfo方法不存在！
+
+[ 2014-10-25T20:35:55+08:00 ] 127.0.0.1 /home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_labinfo` [ RunTime:0.003000s ]
+ERR: Think\Model:getInfo方法不存在！
+
+[ 2014-10-25T20:36:12+08:00 ] 127.0.0.1 /home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_labinfo` [ RunTime:0.003000s ]
+ERR: Think\Model:getInfo方法不存在！
+
+[ 2014-10-25T20:36:13+08:00 ] 127.0.0.1 /home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_labinfo` [ RunTime:0.003000s ]
+ERR: Think\Model:getInfo方法不存在！
+
+[ 2014-10-25T20:36:13+08:00 ] 127.0.0.1 /home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_labinfo` [ RunTime:0.003000s ]
+ERR: Think\Model:getInfo方法不存在！
+
+[ 2014-10-25T20:36:13+08:00 ] 127.0.0.1 /home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_labinfo` [ RunTime:0.003000s ]
+ERR: Think\Model:getInfo方法不存在！
+
+[ 2014-10-25T20:36:13+08:00 ] 127.0.0.1 /home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_labinfo` [ RunTime:0.002001s ]
+ERR: Think\Model:getInfo方法不存在！
+
+[ 2014-10-25T20:36:13+08:00 ] 127.0.0.1 /home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_labinfo` [ RunTime:0.002000s ]
+ERR: Think\Model:getInfo方法不存在！
+
+[ 2014-10-25T20:36:14+08:00 ] 127.0.0.1 /home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_labinfo` [ RunTime:0.002000s ]
+ERR: Think\Model:getInfo方法不存在！
+
+[ 2014-10-25T20:36:14+08:00 ] 127.0.0.1 /home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_labinfo` [ RunTime:0.003000s ]
+ERR: Think\Model:getInfo方法不存在！
+
+[ 2014-10-25T20:36:14+08:00 ] 127.0.0.1 /home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_labinfo` [ RunTime:0.003000s ]
+ERR: Think\Model:getInfo方法不存在！
+
+[ 2014-10-25T20:36:14+08:00 ] 127.0.0.1 /home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_labinfo` [ RunTime:0.002000s ]
+ERR: Think\Model:getInfo方法不存在！
+
+[ 2014-10-25T20:36:15+08:00 ] 127.0.0.1 /home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_labinfo` [ RunTime:0.003000s ]
+ERR: Think\Model:getInfo方法不存在！
+
+[ 2014-10-25T20:36:26+08:00 ] 127.0.0.1 /home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_labinfo` [ RunTime:0.003000s ]
+ERR: Think\Model:getInfo方法不存在！
+
+[ 2014-10-25T20:36:27+08:00 ] 127.0.0.1 /home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_labinfo` [ RunTime:0.002000s ]
+ERR: Think\Model:getInfo方法不存在！
+
+[ 2014-10-25T20:36:27+08:00 ] 127.0.0.1 /home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `db_labinfo` [ RunTime:0.003001s ]
+ERR: Think\Model:getInfo方法不存在！
+
+[ 2014-10-25T20:36:27+08:00 ] 127.0.0.1 /home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_labinfo` [ RunTime:0.003000s ]
+ERR: Think\Model:getInfo方法不存在！
+
+[ 2014-10-25T20:36:37+08:00 ] 127.0.0.1 /home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-10-25T20:36:55+08:00 ] 127.0.0.1 /home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dblabinfo` [ RunTime:0.002000s ]
+ERR: 1146:Table 'db_laboratory.dblabinfo' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dblabinfo`
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: index_active G:\github\gaozi\Application\Runtime\Cache\Home\58dcbc0a6aedef7ee219b145fa55354f.php 第 24 行.
+NOTIC: [8] Undefined variable: lab_info G:\github\gaozi\Application\Runtime\Cache\Home\58dcbc0a6aedef7ee219b145fa55354f.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-10-25T20:38:23+08:00 ] 127.0.0.1 /home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dblabinfo` [ RunTime:0.003000s ]
+ERR: 1146:Table 'db_laboratory.dblabinfo' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dblabinfo`
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: index_active G:\github\gaozi\Application\Runtime\Cache\Home\58dcbc0a6aedef7ee219b145fa55354f.php 第 24 行.
+NOTIC: [8] Undefined variable: lab_info G:\github\gaozi\Application\Runtime\Cache\Home\58dcbc0a6aedef7ee219b145fa55354f.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-10-25T20:38:36+08:00 ] 127.0.0.1 /home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dblabinfo` [ RunTime:0.003000s ]
+ERR: 1146:Table 'db_laboratory.dblabinfo' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dblabinfo`
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in G:\github\gaozi\Application\Home\Model\DblabinfoModel.class.php on line 6 and defined G:\github\gaozi\ThinkPHP\Library\Think\Model.class.php 第 1576 行.
+NOTIC: [8] Undefined variable: where G:\github\gaozi\ThinkPHP\Library\Think\Model.class.php 第 1584 行.
+NOTIC: [8] Undefined variable: where G:\github\gaozi\ThinkPHP\Library\Think\Model.class.php 第 1587 行.
+NOTIC: [8] Undefined variable: where G:\github\gaozi\ThinkPHP\Library\Think\Model.class.php 第 1595 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: index_active G:\github\gaozi\Application\Runtime\Cache\Home\58dcbc0a6aedef7ee219b145fa55354f.php 第 24 行.
+NOTIC: [8] Undefined variable: lab_info G:\github\gaozi\Application\Runtime\Cache\Home\58dcbc0a6aedef7ee219b145fa55354f.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-10-25T20:38:59+08:00 ] 127.0.0.1 /home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dblabinfo` [ RunTime:0.003001s ]
+ERR: 1146:Table 'db_laboratory.dblabinfo' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dblabinfo`
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in G:\github\gaozi\Application\Home\Model\DblabinfoModel.class.php on line 6 and defined G:\github\gaozi\ThinkPHP\Library\Think\Model.class.php 第 1576 行.
+NOTIC: [8] Undefined variable: where G:\github\gaozi\ThinkPHP\Library\Think\Model.class.php 第 1584 行.
+NOTIC: [8] Undefined variable: where G:\github\gaozi\ThinkPHP\Library\Think\Model.class.php 第 1587 行.
+NOTIC: [8] Undefined variable: where G:\github\gaozi\ThinkPHP\Library\Think\Model.class.php 第 1595 行.
+SQL: SELECT * FROM `dblabinfo`  [ RunTime:0.001000s ]
+ERR: 1146:Table 'db_laboratory.dblabinfo' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dblabinfo` 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: index_active G:\github\gaozi\Application\Runtime\Cache\Home\58dcbc0a6aedef7ee219b145fa55354f.php 第 24 行.
+NOTIC: [8] Undefined variable: lab_info G:\github\gaozi\Application\Runtime\Cache\Home\58dcbc0a6aedef7ee219b145fa55354f.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-10-25T20:40:07+08:00 ] 127.0.0.1 /home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dblabinfo` [ RunTime:0.002000s ]
+ERR: 1146:Table 'db_laboratory.dblabinfo' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dblabinfo`
+SQL: SELECT `info` FROM `dblabinfo`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'db_laboratory.dblabinfo' doesn't exist
+ [ SQL语句 ] : SELECT `info` FROM `dblabinfo` 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: index_active G:\github\gaozi\Application\Runtime\Cache\Home\58dcbc0a6aedef7ee219b145fa55354f.php 第 24 行.
+NOTIC: [8] Undefined variable: lab_info G:\github\gaozi\Application\Runtime\Cache\Home\58dcbc0a6aedef7ee219b145fa55354f.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-10-25T20:40:08+08:00 ] 127.0.0.1 /home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dblabinfo` [ RunTime:0.003000s ]
+ERR: 1146:Table 'db_laboratory.dblabinfo' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dblabinfo`
+SQL: SELECT `info` FROM `dblabinfo`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'db_laboratory.dblabinfo' doesn't exist
+ [ SQL语句 ] : SELECT `info` FROM `dblabinfo` 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: index_active G:\github\gaozi\Application\Runtime\Cache\Home\58dcbc0a6aedef7ee219b145fa55354f.php 第 24 行.
+NOTIC: [8] Undefined variable: lab_info G:\github\gaozi\Application\Runtime\Cache\Home\58dcbc0a6aedef7ee219b145fa55354f.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2014-10-25T20:42:13+08:00 ] 127.0.0.1 /home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dblabinfo` [ RunTime:0.009001s ]
+ERR: 1146:Table 'db_laboratory.dblabinfo' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dblabinfo`
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: index_active G:\github\gaozi\Application\Runtime\Cache\Home\58dcbc0a6aedef7ee219b145fa55354f.php 第 24 行.
+NOTIC: [8] Undefined variable: lab_info G:\github\gaozi\Application\Runtime\Cache\Home\58dcbc0a6aedef7ee219b145fa55354f.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-10-25T20:42:27+08:00 ] 127.0.0.1 /home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dblabinfo` [ RunTime:0.002000s ]
+ERR: 1146:Table 'db_laboratory.dblabinfo' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dblabinfo`
+SQL: SELECT `info` FROM `dblabinfo`  [ RunTime:0.001001s ]
+ERR: 1146:Table 'db_laboratory.dblabinfo' doesn't exist
+ [ SQL语句 ] : SELECT `info` FROM `dblabinfo` 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: index_active G:\github\gaozi\Application\Runtime\Cache\Home\58dcbc0a6aedef7ee219b145fa55354f.php 第 24 行.
+NOTIC: [8] Undefined variable: lab_info G:\github\gaozi\Application\Runtime\Cache\Home\58dcbc0a6aedef7ee219b145fa55354f.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-10-25T20:44:35+08:00 ] 127.0.0.1 /home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dblabinfo` [ RunTime:0.003000s ]
+ERR: 1146:Table 'db_laboratory.dblabinfo' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dblabinfo`
+SQL: SELECT `info` FROM `dblabinfo`  [ RunTime:0.001000s ]
+ERR: 1146:Table 'db_laboratory.dblabinfo' doesn't exist
+ [ SQL语句 ] : SELECT `info` FROM `dblabinfo` 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: index_active G:\github\gaozi\Application\Runtime\Cache\Home\58dcbc0a6aedef7ee219b145fa55354f.php 第 24 行.
+NOTIC: [8] Undefined variable: lab_info G:\github\gaozi\Application\Runtime\Cache\Home\58dcbc0a6aedef7ee219b145fa55354f.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-10-25T20:45:21+08:00 ] 127.0.0.1 /home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dblabinfo` [ RunTime:0.003000s ]
+ERR: 1146:Table 'db_laboratory.dblabinfo' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dblabinfo`
+SQL: SELECT `info` FROM `dblabinfo`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'db_laboratory.dblabinfo' doesn't exist
+ [ SQL语句 ] : SELECT `info` FROM `dblabinfo` 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: index_active G:\github\gaozi\Application\Runtime\Cache\Home\58dcbc0a6aedef7ee219b145fa55354f.php 第 24 行.
+NOTIC: [8] Undefined variable: lab_info G:\github\gaozi\Application\Runtime\Cache\Home\58dcbc0a6aedef7ee219b145fa55354f.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-10-25T20:45:21+08:00 ] 127.0.0.1 /home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dblabinfo` [ RunTime:0.002000s ]
+ERR: 1146:Table 'db_laboratory.dblabinfo' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dblabinfo`
+SQL: SELECT `info` FROM `dblabinfo`  [ RunTime:0.001000s ]
+ERR: 1146:Table 'db_laboratory.dblabinfo' doesn't exist
+ [ SQL语句 ] : SELECT `info` FROM `dblabinfo` 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: index_active G:\github\gaozi\Application\Runtime\Cache\Home\58dcbc0a6aedef7ee219b145fa55354f.php 第 24 行.
+NOTIC: [8] Undefined variable: lab_info G:\github\gaozi\Application\Runtime\Cache\Home\58dcbc0a6aedef7ee219b145fa55354f.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-10-25T20:46:02+08:00 ] 127.0.0.1 /home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dblabinfo` [ RunTime:0.002000s ]
+ERR: 1146:Table 'db_laboratory.dblabinfo' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dblabinfo`
+SQL: SELECT `info` FROM `dblabinfo`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'db_laboratory.dblabinfo' doesn't exist
+ [ SQL语句 ] : SELECT `info` FROM `dblabinfo` 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: index_active G:\github\gaozi\Application\Runtime\Cache\Home\58dcbc0a6aedef7ee219b145fa55354f.php 第 24 行.
+NOTIC: [8] Undefined variable: lab_info G:\github\gaozi\Application\Runtime\Cache\Home\58dcbc0a6aedef7ee219b145fa55354f.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-10-25T20:46:38+08:00 ] 127.0.0.1 /home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dblabinfo` [ RunTime:0.002000s ]
+ERR: 1146:Table 'db_laboratory.dblabinfo' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dblabinfo`
+SQL: SELECT * FROM `dblabinfo` WHERE ( id = 1 )  [ RunTime:0.000000s ]
+ERR: 1146:Table 'db_laboratory.dblabinfo' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dblabinfo` WHERE ( id = 1 ) 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: index_active G:\github\gaozi\Application\Runtime\Cache\Home\58dcbc0a6aedef7ee219b145fa55354f.php 第 24 行.
+NOTIC: [8] Undefined variable: lab_info G:\github\gaozi\Application\Runtime\Cache\Home\58dcbc0a6aedef7ee219b145fa55354f.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-10-25T20:49:38+08:00 ] 127.0.0.1 /home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_labinfo` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `db_labinfo` WHERE ( id = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: index_active G:\github\gaozi\Application\Runtime\Cache\Home\58dcbc0a6aedef7ee219b145fa55354f.php 第 24 行.
+NOTIC: [8] Undefined variable: lab_info G:\github\gaozi\Application\Runtime\Cache\Home\58dcbc0a6aedef7ee219b145fa55354f.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-10-25T20:50:02+08:00 ] 127.0.0.1 /home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_labinfo` [ RunTime:0.003000s ]
+SQL: SELECT `info` FROM `db_labinfo`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: index_active G:\github\gaozi\Application\Runtime\Cache\Home\58dcbc0a6aedef7ee219b145fa55354f.php 第 24 行.
+NOTIC: [8] Undefined variable: lab_info G:\github\gaozi\Application\Runtime\Cache\Home\58dcbc0a6aedef7ee219b145fa55354f.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-10-25T20:50:53+08:00 ] 127.0.0.1 /home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_labinfo` [ RunTime:0.003001s ]
+SQL: SELECT `info` FROM `db_labinfo`  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: info G:\github\gaozi\Application\Home\Controller\IndexController.class.php 第 51 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: index_active G:\github\gaozi\Application\Runtime\Cache\Home\58dcbc0a6aedef7ee219b145fa55354f.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-10-25T20:51:01+08:00 ] 127.0.0.1 /home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_labinfo` [ RunTime:0.002000s ]
+SQL: SELECT `info` FROM `db_labinfo`  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: info G:\github\gaozi\Application\Home\Controller\IndexController.class.php 第 51 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: index_active G:\github\gaozi\Application\Runtime\Cache\Home\58dcbc0a6aedef7ee219b145fa55354f.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-10-25T20:51:01+08:00 ] 127.0.0.1 /home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_labinfo` [ RunTime:0.002000s ]
+SQL: SELECT `info` FROM `db_labinfo`  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: info G:\github\gaozi\Application\Home\Controller\IndexController.class.php 第 51 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: index_active G:\github\gaozi\Application\Runtime\Cache\Home\58dcbc0a6aedef7ee219b145fa55354f.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-10-25T20:51:02+08:00 ] 127.0.0.1 /home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_labinfo` [ RunTime:0.003001s ]
+SQL: SELECT `info` FROM `db_labinfo`  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: info G:\github\gaozi\Application\Home\Controller\IndexController.class.php 第 51 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: index_active G:\github\gaozi\Application\Runtime\Cache\Home\58dcbc0a6aedef7ee219b145fa55354f.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-10-25T20:51:19+08:00 ] 127.0.0.1 /home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_labinfo` [ RunTime:0.003000s ]
+SQL: SELECT `info` FROM `db_labinfo`  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: info G:\github\gaozi\Application\Home\Controller\IndexController.class.php 第 51 行.
+NOTIC: [8] Undefined index: info G:\github\gaozi\Application\Home\Controller\IndexController.class.php 第 52 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: index_active G:\github\gaozi\Application\Runtime\Cache\Home\58dcbc0a6aedef7ee219b145fa55354f.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-10-25T20:51:24+08:00 ] 127.0.0.1 /home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_labinfo` [ RunTime:0.004001s ]
+SQL: SELECT `info` FROM `db_labinfo`  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: info G:\github\gaozi\Application\Home\Controller\IndexController.class.php 第 52 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: index_active G:\github\gaozi\Application\Runtime\Cache\Home\58dcbc0a6aedef7ee219b145fa55354f.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-10-25T20:51:36+08:00 ] 127.0.0.1 /home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_labinfo` [ RunTime:0.003001s ]
+SQL: SELECT `info` FROM `db_labinfo`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: index_active G:\github\gaozi\Application\Runtime\Cache\Home\58dcbc0a6aedef7ee219b145fa55354f.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-10-25T21:39:04+08:00 ] 127.0.0.1 /home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_labinfo` [ RunTime:0.003000s ]
+SQL: SELECT `info` FROM `db_labinfo`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: index_active G:\github\gaozi\Application\Runtime\Cache\Home\58dcbc0a6aedef7ee219b145fa55354f.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-10-25T21:39:17+08:00 ] 127.0.0.1 /home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_labinfo` [ RunTime:0.003001s ]
+SQL: SELECT `info` FROM `db_labinfo`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: index_active G:\github\gaozi\Application\Runtime\Cache\Home\58dcbc0a6aedef7ee219b145fa55354f.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-10-25T21:39:44+08:00 ] 127.0.0.1 /home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_labinfo` [ RunTime:0.003000s ]
+SQL: SELECT `info` FROM `db_labinfo`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: index_active G:\github\gaozi\Application\Runtime\Cache\Home\58dcbc0a6aedef7ee219b145fa55354f.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-10-25T21:40:01+08:00 ] 127.0.0.1 /home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `db_labinfo` [ RunTime:0.003000s ]
+SQL: SELECT `info` FROM `db_labinfo`  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: index_active G:\github\gaozi\Application\Runtime\Cache\Home\58dcbc0a6aedef7ee219b145fa55354f.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-10-25T21:51:33+08:00 ] 127.0.0.1 /home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `db_labinfo` [ RunTime:0.002000s ]
+SQL: SELECT `info` FROM `db_labinfo`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: index_active G:\github\gaozi\Application\Runtime\Cache\Home\58dcbc0a6aedef7ee219b145fa55354f.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

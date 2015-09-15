@@ -1,0 +1,42 @@
+<extend name="public:menu"/>
+<block name="main">
+    <div class="container-fluid">
+        <h3 class="page-title">成果新增</h3>
+        <form action="/home/admin/result_store" method="post"enctype="multipart/form-data">
+            <div class="formbox">
+                <div class="formbox-title">成果title</div>
+                <div class="formbox-body">
+                    <input type="text" name="title">
+                </div>
+            </div>
+            <div class="formbox">
+                <div class="formbox-title">作者</div>
+                <div class="formbox-body">
+                    <input type="text" name="author">
+                </div>
+            </div>
+            <div class="formbox">
+                <div class="formbox-title">文件</div>
+                <div class="formbox-body">
+				<input type="file" name="file" id = "file"/> 
+                </div>
+            </div>
+            <div class="formbox">
+            	<div class="formbox-title">类型</div>
+                <select  name = "type">
+					<option value="0">论文</option>
+					<option value="1">其他</option>
+				</select>
+            </div>
+
+            <div class="formbox">
+                <div class="formbox-title">成果简介</div>
+                <div class="formbox-body">
+                    <textarea name="content" style="height:151px;width:549px"></textarea>
+                </div>
+            </div>
+            <div class="info"></div>
+            <input type="submit" value="确认新增" class="add-but" />
+        </form>
+    </div>
+</block>

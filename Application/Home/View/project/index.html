@@ -1,0 +1,17 @@
+<extend name="public:header" />
+<block name="main">
+    <div class="main">
+        <div class="position"> 您现在正在浏览： <a href="/">首页</a> » {$title}</div>
+        <div class="">
+            <div class="mleft">
+                <h4 class="result-title"><span>{$info[0]['name']}</span><span>{$info[0]['director']}</span><span>{$info[0]['source']}</span></h4>
+                <div class="result-content">
+                    <p>
+                        <pre>{$info[0]['content']}</pre>
+                    </p>
+                </div>
+            </div>
+            <include file="public:right" />
+        </div>
+    </div>
+</block>

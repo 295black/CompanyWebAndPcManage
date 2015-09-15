@@ -1,0 +1,28 @@
+<extend name="public:menu"/>
+<block name="main">
+    <div class="container-fluid">
+        <h3 class="page-title">友情链接查看</h3>
+        <form action="/home/admin/links_update" method="post">
+            <div class="formbox">
+                <div class="formbox-title">友情链接名称</div>
+                <div class="formbox-body">
+                    <input type="text" style="height:51px;width:449px" disabled=ture name="title" value="{$links_list[0]['link']}">
+                </div>
+            </div>
+            <div class="formbox">
+                <div class="formbox-title">LOGO</div>
+                <div class="formbox-body">
+               		 <img src="<?php echo $links_list[0]['logo'];?>"width="144" height="146">
+                </div>
+            </div>
+            <div class="formbox">
+                <div class="formbox-title">URL</div>
+                <div class="formbox-body">
+                    <textarea name="content" style="height:51px;width:449px" disabled=ture>{$links_list[0]['url']}</textarea>
+                </div>
+            </div>
+            <input type='hidden' name="id" value="{$id}">
+            <div class="info"></div>
+        </form>
+    </div>
+</block>

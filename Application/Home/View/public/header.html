@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>{$title}</title>
+    <load href="__CSS__/header.css" />
+    <load href="__PUBLIC__/bootstrap2.3/css/bootstrap.min.css"/>
+    <load href="__JS__/jquery.js" />
+    <load href="__PUBLIC__/bootstrap2.3/js/bootstrap.min.js"/>
+    <load href="__PUBLIC__/easySlider/easySlider1.5.js" />
+    <load href="__CSS__/style_front.css" />
+</head>
+<body>
+<div class="hd">
+    <div class="bg">
+        <img src="__IMG__/banner.gif" />
+        <span class="bg-time"><strong>今天是：<?php echo date("Y-m-d l")?></strong></span>
+    </div>
+    <div class="navbar">
+      <div class="navbar-inner">
+        <ul class="nav">
+          <li class="<?php echo $index_active;?>"><a href="/home/index">首页</a></li>
+          <li class="<?php echo $info_active;?>"><a href="/home/index/info">实验室介绍</a></li>
+          <li class="<?php echo $news_active;?>"><a href="/home/index/news">新闻中心</a></li>
+          <li class="<?php echo $notice_active;?>"><a href="/home/index/notice">通知公告</a></li>
+          <li class="<?php echo $member_active;?>"><a href="/home/index/member">科研团队</a></li>
+          <li class="<?php echo $paper_active;?>"><a href="/home/index/paper">发表论文</a></li>
+          <li class="<?php echo $projects_active;?>"><a href="/home/index/projects">科研项目</a></li>
+          <li class="<?php echo $result_active;?>"><a href="/home/index/result">成果展示</a></li>
+          <li class="<?php echo $link_active;?>"><a href="/home/index/link">常用链接</a></li>
+        </ul>
+      </div>
+    </div>
+</div>
+<block name="main"></block>
+</body>
+</html>

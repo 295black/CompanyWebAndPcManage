@@ -1,0 +1,23 @@
+<extend name="public:header" />
+<block name="load-css">
+    <load href="__CSS__/styles.css" />
+</block>
+<block name="main">
+<div class="main">
+    <div class="position"> 您现在正在浏览： <a href="/">首页</a> » 科研团队风采</div>
+    <div>
+        <div class="mleft">
+            <h1 class="news-title">{$student_info[0]["name"]}</h1>
+            <hr>
+        	<div class="news-content user-content">
+                <?php
+                    echo '<img width="150" height="150" src="'.$resume_info[0]["img"].'">';
+                    echo '<pre><div>'.$resume_info[0]["content"].'</div></pre>';
+                    echo '<div>电子邮件：'.$resume_info[0]["email"].'</div>'
+                ?>
+        	</div>
+        </div>
+        <include file="public:right" />
+    </div>
+</div>
+</block>
